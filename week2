@@ -1,0 +1,80 @@
+  746  cat> grepFile.txt
+  747  grep "Hello" grepFile.txt
+  748  grep -c"Hello" grepFile.txt
+  749  grep -h"Hello" grepFile.txt
+  750  grep -o"Hello" grepFile.txt
+  751  grep -o"ll" grepFile.txt
+  752  grep -o"H" grepFile.txt
+  753  grep -v"ll" grepFile.txt
+  754  grep -v"Hello" grepFile.txt
+  755  grep -e"Hello" grepFile.txt
+  756  grep "^Hello" grepFile.txt
+  757  cat > file1.txt
+  758  grep -o "Linux" file1.txt
+  759  grep -c "Linux" file1.txt
+  760  grep -l "Linux" file1.txt
+  761  grep -h "Linux" file1.txt
+  762  grep -v "Linux" file1.txt
+  763  grep -e "Linux" file1.txt
+  764  grep -n "Linux" file1.txt
+  765  grep "^Linux" file1.txt
+  766  grep -v"Linux" file1.txt
+  767  grep -v "Linux" file1.txt
+  768  cat> month.txt
+  769  sort -m month.txt
+  770  cat> number.txt
+  771  sort -n month.txt
+  772  sort -n number.txt
+  773  sort -r number.txt
+  774  sort -R number.txt
+  775  sort -r number.txt
+  776  cat> file2.txt
+  777  sed's/Hello/HELLO/g' fil2.txt
+  778  sed's/alla/ALLA/g' fil2.txt
+  779  sed's/alla/ALLA/1' fil2.txt
+  780  sed's/alla/ALLA/g' file2.txt
+  781  sed's/alla/g' file2.txt
+  782  sed's/alla/' file2.txt
+  783  sed 's/alla/' file2.txt
+  784  sed 's/alla/g' file2.txt
+  785  sed 's/alla/' file2.txt
+  786  sed 's/alla/ALLA/g' file2.txt
+  787  sed 's/tamarind/grape/g' file2.txt
+  788  sed 's/ALLA/All' file2.txt
+  789  sed 's/ALLA/All/' file2.txt
+  790  sed 's/ALLA/all/g' file2.txt
+  791  sed 's/ALLA/all /g' file2.txt
+  792  cat> awk.txt
+  793  awk '{$1,$2}'
+  794  awk '{$1,$2}' awk.txt
+  795  awk '{print $1,$2}' awk.txt
+  796  awk '{print $1}' awk.txt
+  797  awk '/Linux/{print $1}' awk.txt
+  798  awk '{print NR $0}' awk.txt
+  799  awk '{print NR}' awk.txt
+  800  free -m
+  801  awk free -M
+  802  shutdown -r now
+  803  sudo shutdown now
+  804  clear
+  805  ls -lrt
+  806  name
+  807  nam
+  808  nam sed
+  809  nam swk
+  810  clear
+  811  ls -lrt
+  812  man
+  813  man sed
+  814  man awk
+  815  history
+  816  ftp ftp.dlptest.com
+  817  clear
+  818  ftp ftp.dlptest.com
+  819  clear
+  820  ssh pavankalyan@tty.sdf.org
+  821  ftp ftp.dlptest.com 
+  822  clear
+  823  history
+  824  telnet towel.blinkenlights.n1
+  825  telnet towel.blinkenlights.nl
